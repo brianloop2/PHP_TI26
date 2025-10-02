@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    
+}
+.header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 380px;
+    height: 40px;
+    display: flex;
+}
+.logo h1{
+    color: white;
+}
+.itens{
+    display: flex;
+    justify-content: center;
+
+}
+.itens>ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;  
+
+}
+.itens>ul>li{
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 18px;
+}
+.itens>ul>li>a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 7px;
+    border: 1px white solid;
+
+}
+.pag:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    transition: 0.5s;
+}
+.li-1:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
